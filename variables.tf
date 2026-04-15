@@ -1,11 +1,4 @@
-variable "instance_name" {
-  description = "Value of the EC2 instance's Name tag."
+variable "bucket_name" {
+  description = "name of s3 bucket"
   type        = string
-  default     = "learn-terraform"
-}
-
-variable "instance_type" {
-  description = "The EC2 instance's type."
-  type        = string
-  default     = "t2.micro"
 }
