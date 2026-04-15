@@ -2,6 +2,6 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_s3_bucket" "example_bucket" {
+resource "aws_s3_bucket" "your_bucket" {
   bucket = var.bucket_name
 }
