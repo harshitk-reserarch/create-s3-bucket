@@ -1,6 +1,4 @@
-This is a template repository used in the [Get Started with HCP Terraform tutorial collection](https://developer.hashicorp.com/terraform/tutorials/cloud-get-started)
-
-This repository contains the following files:
+This repository contains the following files to create an s3 bucket:
 
 - `terraform.tf`: Configures Terraform and the AWS provider.
 - `main.tf`: Defines one AWS EC2 instance.
