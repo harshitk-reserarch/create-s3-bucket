@@ -1,4 +1,5 @@
-# This tells Terraform to scan AWS for all S3 buckets
-list "aws_s3_bucket" "all_my_buckets" {
+# search.tfquery.hcl
+
+list "aws_instance" "all_my_instances" {
   provider = aws
 }
